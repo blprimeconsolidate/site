@@ -1,55 +1,101 @@
-
 <!DOCTYPE html>
 <html lang="pt">
 <head>
-<meta charset="UTF-8">
-<title>BL Prime Consolidate</title>
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Especialistas em MotoMarket, gestão imobiliária e camper vans personalizadas. Descubra soluções premium.">
+    <title>BL Prime Consolidate - Home</title>
+    <link rel="icon" href="images/favicon.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        .hero {animation: fadeIn 1s ease-in;}
+        @keyframes fadeIn {from {opacity: 0;} to {opacity: 1;}}
+        .btn-primary {animation: bounceIn 0.5s ease-out 0.5s both;}
+        @keyframes bounceIn {0% {transform: scale(0.3);} 50% {transform: scale(1.05);} 70% {transform: scale(0.9);} 100% {transform: scale(1);}}
+        .faq-item {animation: fadeInUp 0.6s ease-out both; margin-bottom: 15px;}
+        .faq-item:nth-child(1) {animation-delay: 0.1s;}
+        .faq-item:nth-child(2) {animation-delay: 0.2s;}
+        .faq-item:nth-child(3) {animation-delay: 0.3s;}
+        .faq-item:nth-child(4) {animation-delay: 0.4s;}
+        @keyframes fadeInUp {from {opacity: 0; transform: translateY(30px);} to {opacity: 1; transform: translateY(0);}}
+        details {border: 1px solid #ddd; border-radius: 10px; padding: 15px; margin-bottom: 10px;}
+        summary {cursor: pointer; font-weight: 600; color: #1e2a38;}
+        summary:hover {color: #d4af37;}
+    </style>
 </head>
 <body>
+    <header>
+        <img src="images/logo.png" class="logo" alt="BL Prime Consolidate" style="max-width:150px;margin-bottom:10px;">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="servicos.html">Serviços</a>
+            <a href="testemunhos.html">Testemunhos</a>
+            <a href="contacto.html">Contacto</a>
+        </nav>
+    </header>
 
-<header class="header">
-  <div class="container">
-    <div class="logo">BL Prime Consolidate</div>
-    <nav>
-      <a href="#sobre">Sobre</a>
-      <a href="#servicos">Serviços</a>
-      <a href="#kawanninktattoo">Tattoo</a>
-      <a href="#contacto" class="nav-btn">Contacto</a>
-    </nav>
-  </div>
-</header>
+    <section class="hero">
+        <h2>Bem-vindo à BL Prime Consolidate</h2>
+        <p>A BL Prime Consolidate desenvolve, gere e consolida projetos independentes nas áreas de ativos, mobilidade e marcas especializadas. Especialistas em MotoMarket, Gestão de Património Imobiliário e Camper vans personalizadas. Descubra soluções premium para o seu estilo de vida.</p>
+        <a href="servicos.html" class="btn-primary">Ver Serviços</a>
+    </section>
 
-<section class="hero">
-  <div class="container">
-    <h1>Soluções Empresariais com Visão Estratégica</h1>
-    <p>Gestão estratégica de negócios, património e projetos especializados.</p>
-    <a href="#contacto" class="btn-primary">Contactar</a>
-  </div>
-</section>
+    <section class="bg-dark">
+        <h2>Por Que Escolher-nos?</h2>
+        <div class="service-grid">
+            <div class="service-card">
+                <i class="fas fa-motorcycle fa-3x" style="color:#d4af37;margin-bottom:20px;"></i>
+                <h3>MotoMarket Premium</h3>
+                <p>Motos de alta qualidade para aluguer e venda.</p>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-home fa-3x" style="color:#d4af37;margin-bottom:20px;"></i>
+                <h3>Gestão Imobiliária</h3>
+                <p>Soluções inteligentes para o seu património.</p>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-caravan fa-3x" style="color:#d4af37;margin-bottom:20px;"></i>
+                <h3>Camper Vans</h3>
+                <p>Personalização para aventuras únicas.</p>
+            </div>
+        </div>
+    </section>
 
-<section id="kawanninktattoo" class="tattoo-section dark-tattoo">
-  <div class="container">
-    <h2>KawannInkTattoo</h2>
-    <p>Serviço especializado em tatuagem artística personalizada.</p>
+    <section>
+        <h2>Perguntas Frequentes</h2>
+        <div class="service-grid">
+            <div class="faq-item">
+                <details>
+                    <summary><i class="fas fa-motorcycle" style="color:#d4af37;margin-right:10px;"></i> Como funciona o aluguer de motos no MotoMarket?</summary>
+                    <p>Oferecemos aluguer de motos ao dia por 50€, com consultoria para encontrar a moto ideal para treinos ou competições. Em breve, motos para revenda.</p>
+                </details>
+            </div>
+            <div class="faq-item">
+                <details>
+                    <summary><i class="fas fa-home" style="color:#d4af37;margin-right:10px;"></i> O que é o BL Rent?</summary>
+                    <p>O BL Rent é o nosso projeto de gestão e exploração de património imobiliário, focado em imóveis tradicionais e casas de madeira para aluguer de longa duração. Projetos em desenvolvimento.</p>
+                </details>
+            </div>
+            <div class="faq-item">
+                <details>
+                    <summary><i class="fas fa-caravan" style="color:#d4af37;margin-right:10px;"></i> O que inclui o BL Camper Vans?</summary>
+                    <p>O BL Camper Vans oferece projetos personalizados de camper vans para aventuras únicas. Disponível mediante consulta para parcerias.</p>
+                </details>
+            </div>
+            <div class="faq-item">
+                <details>
+                    <summary><i class="fas fa-palette" style="color:#d4af37;margin-right:10px;"></i> Como funciona o KawannInkTattoo?</summary>
+                    <p>É um projeto artístico associado, focado em tatuagem personalizada de identidade autoral. Consulte disponibilidade para agendamentos.</p>
+                </details>
+            </div>
+        </div>
+    </section>
 
-    <div class="tattoo-gallery">
-      <img src="images/tattoo/tattoo1.jpg" class="tattoo-img">
-      <img src="images/tattoo/tattoo2.jpg" class="tattoo-img">
-      <img src="images/tattoo/tattoo3.jpg" class="tattoo-img">
-    </div>
+    <footer>
+        <p>© 2024 BL Prime Consolidate</p>
+    </footer>
 
-    <a href="https://www.instagram.com/_kawanninktattoo_/" target="_blank" class="btn-secondary">
-      Ver Instagram
-    </a>
-  </div>
-</section>
-
-<div id="lightbox" class="lightbox">
-  <span class="lightbox-close">&times;</span>
-  <img class="lightbox-content" id="lightbox-img">
-</div>
-
-<script src="script.js"></script>
+    <a href="https://wa.me/351911043284" class="whatsapp-float" target="_blank" aria-label="Contactar via WhatsApp"><i class="fab fa-whatsapp"></i></a>
 </body>
 </html>

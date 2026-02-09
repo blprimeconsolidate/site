@@ -3,56 +3,75 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Serviços de MotoMarket, gestão imobiliária, camper vans personalizadas e tatuagem artística.">
     <title>BL Prime Consolidate - Serviços</title>
-    <link rel="icon" href="favicon.png">
+    <link rel="icon" href="images/favicon.png">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        .service-card {animation: fadeInUp 0.6s ease-out both;}
+        .service-card:nth-child(1) {animation-delay: 0.1s;}
+        .service-card:nth-child(2) {animation-delay: 0.2s;}
+        .service-card:nth-child(3) {animation-delay: 0.3s;}
+        .service-card:nth-child(4) {animation-delay: 0.4s;}
+        @keyframes fadeInUp {from {opacity: 0; transform: translateY(30px);} to {opacity: 1; transform: translateY(0);}}
+    </style>
 </head>
 <body>
-<header>
-    <img src="logo.png" class="logo" alt="BL Prime Consolidate" style="max-width:150px;margin-bottom:10px;">
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="servicos.html">Serviços</a>
-        <a href="testemunhos.html">Testemunhos</a>
-        <a href="contacto.html">Contacto</a>
-    </nav>
-</header>
+    <header>
+        <img src="images/logo.png" class="logo" alt="BL Prime Consolidate" style="max-width:150px;margin-bottom:10px;" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+        <h1 class="logo" style="display:none;font-size:1.5em;color:#d4af37;margin-bottom:10px;">BL Prime Consolidate</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="servicos.html">Serviços</a>
+            <a href="testemunhos.html">Testemunhos</a>
+            <a href="contacto.html">Contacto</a>
+        </nav>
+    </header>
 
-<section>
-<h2>Serviços</h2>
-<div class="service-grid">
+    <section>
+        <h2>Serviços</h2>
+        <p style="text-align:center;margin-bottom:40px;font-size:1.1em;">A BL Prime Consolidate desenvolve, gere e consolida projetos independentes nas áreas de ativos, mobilidade e marcas especializadas. Descubra as nossas soluções premium em MotoMarket, gestão imobiliária, camper vans e arte personalizada.</p>
+        <div class="service-grid">
+            <div class="service-card">
+                <img src="images/imovel.jpg" alt="Gestão de Património Imobiliário" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+                <p style="display:none;text-align:center;color:#d4af37;">Imagem não disponível</p>
+                <i class="fas fa-home fa-2x" style="color:#d4af37;margin-bottom:15px;"></i>
+                <h3>BL Rent <span class="soon">Projetos em desenvolvimento</span></h3>
+                <p>Gestão de imóveis tradicionais e casas de madeira para aluguer de longa duração.</p>
+                <a href="contacto.html" class="btn-primary">Solicitar informação</a>
+            </div>
+            <div class="service-card">
+                <img src="images/motomarket.jpg" alt="MotoMarket" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+                <p style="display:none;text-align:center;color:#d4af37;">Imagem não disponível</p>
+                <i class="fas fa-motorcycle fa-2x" style="color:#d4af37;margin-bottom:15px;"></i>
+                <h3>MotoMarket</h3>
+                <p>Aluguer e consultoria de motos. Encontramos a moto ideal para si.</p>
+                <a href="contacto.html" class="btn-primary">Reservar</a>
+            </div>
+            <div class="service-card">
+                <img src="images/camper.jpg" alt="Camper Vans Personalizadas" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+                <p style="display:none;text-align:center;color:#d4af37;">Imagem não disponível</p>
+                <i class="fas fa-caravan fa-2x" style="color:#d4af37;margin-bottom:15px;"></i>
+                <h3>BL Camper Vans <span class="soon">Disponível mediante consulta</span></h3>
+                <p>Projetos personalizados para aventuras únicas.</p>
+                <a href="contacto.html" class="btn-primary">Contactar para parceria</a>
+            </div>
+            <div class="service-card">
+                <img src="images/logo.png" alt="KawannInkTattoo" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+                <p style="display:none;text-align:center;color:#d4af37;">Imagem não disponível</p>
+                <i class="fas fa-palette fa-2x" style="color:#d4af37;margin-bottom:15px;"></i>
+                <h3>KawannInkTattoo</h3>
+                <p>Projeto artístico associado à BL Prime Consolidate, focado em tatuagem personalizada de identidade autoral.</p>
+                <a href="https://www.instagram.com/_kawanninktattoo_/" target="_blank" class="btn-primary">Consultar disponibilidade</a>
+            </div>
+        </div>
+    </section>
 
-<div class="service-card">
-<img src="imovel.jpg">
-<h3>Gestão e Exploração de Património Imobiliário <span class="soon">Brevemente disponível</span></h3>
-<p>Gestão de imóveis tradicionais e casas de madeira.</p>
-</div>
+    <footer>
+        <p>© 2024 BL Prime Consolidate</p>
+    </footer>
 
-<div class="service-card">
-<img src="motomarket.jpg">
-<h3>MotoMarket</h3>
-<p>Aluguer e consultoria de motos.</p>
-<a href="contacto.html" class="btn-primary">Reservar</a>
-</div>
-
-<div class="service-card">
-<img src="camper.jpg">
-<h3>Camper Vans Personalizadas <span class="soon">Brevemente disponível</span></h3>
-<p>Projetos personalizados.</p>
-</div>
-
-<div class="service-card">
-<img src="logo.png">
-<h3>KawannInkTattoo</h3>
-<p>Tatuagem artística personalizada com identidade própria.</p>
-<a href="https://www.instagram.com/_kawanninktattoo_/" target="_blank" class="btn-primary">Ver Instagram</a>
-</div>
-
-</div>
-</section>
-
-<footer>
-<p>© 2024 BL Prime Consolidate</p>
-</footer>
+    <a href="https://wa.me/351911043284" class="whatsapp-float" target="_blank" aria-label="Contactar via WhatsApp"><i class="fab fa-whatsapp"></i></a>
 </body>
 </html>
