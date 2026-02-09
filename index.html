@@ -1,34 +1,55 @@
+
 <!DOCTYPE html>
 <html lang="pt">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BL Prime Consolidate - Home</title>
-    <link rel="icon" href="favicon.png">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+<meta charset="UTF-8">
+<title>BL Prime Consolidate</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <img src="logo.png" class="logo" alt="BL Prime Consolidate" style="max-width:150px;margin-bottom:10px;">
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="servicos.html">Serviços</a>
-            <a href="testemunhos.html">Testemunhos</a>
-            <a href="contacto.html">Contacto</a>
-        </nav>
-    </header>
 
-    <section class="hero">
-        <h2>Bem-vindo à BL Prime Consolidate</h2>
-        <p>Especialistas em MotoMarket, Gestão de Património Imobiliário e Camper vans personalizadas. Descubra soluções premium para o seu estilo de vida.</p>
-        <a href="servicos.html" class="btn-primary">Ver Serviços</a>
-    </section>
+<header class="header">
+  <div class="container">
+    <div class="logo">BL Prime Consolidate</div>
+    <nav>
+      <a href="#sobre">Sobre</a>
+      <a href="#servicos">Serviços</a>
+      <a href="#kawanninktattoo">Tattoo</a>
+      <a href="#contacto" class="nav-btn">Contacto</a>
+    </nav>
+  </div>
+</header>
 
-    <footer>
-        <p>© 2024 BL Prime Consolidate</p>
-    </footer>
+<section class="hero">
+  <div class="container">
+    <h1>Soluções Empresariais com Visão Estratégica</h1>
+    <p>Gestão estratégica de negócios, património e projetos especializados.</p>
+    <a href="#contacto" class="btn-primary">Contactar</a>
+  </div>
+</section>
 
-    <a href="https://wa.me/351911043284" class="whatsapp-float" target="_blank"><i class="fab fa-whatsapp"></i></a>
+<section id="kawanninktattoo" class="tattoo-section dark-tattoo">
+  <div class="container">
+    <h2>KawannInkTattoo</h2>
+    <p>Serviço especializado em tatuagem artística personalizada.</p>
+
+    <div class="tattoo-gallery">
+      <img src="images/tattoo/tattoo1.jpg" class="tattoo-img">
+      <img src="images/tattoo/tattoo2.jpg" class="tattoo-img">
+      <img src="images/tattoo/tattoo3.jpg" class="tattoo-img">
+    </div>
+
+    <a href="https://www.instagram.com/_kawanninktattoo_/" target="_blank" class="btn-secondary">
+      Ver Instagram
+    </a>
+  </div>
+</section>
+
+<div id="lightbox" class="lightbox">
+  <span class="lightbox-close">&times;</span>
+  <img class="lightbox-content" id="lightbox-img">
+</div>
+
+<script src="script.js"></script>
 </body>
 </html>
